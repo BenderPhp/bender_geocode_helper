@@ -150,7 +150,7 @@ class Example extends CI_Controller {
 	public function distance() {
 
 		$address1 = '23 allée jacques bossuet 33470';
-		$address2 = '10 allée pierre corneille';
+		$address2 = '10 allée pierre corneille 33470';
 
 		$geocode1  = geocode_reverse($address1);
 		$geocode2 = geocode_reverse($address2);
